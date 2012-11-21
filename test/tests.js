@@ -195,7 +195,9 @@ describe('cb(callback).interval()', function() {
                 
                 this.slow(5000);
                     
-                iid = setInterval(_cb, 200);                  		
+                iid = setInterval(_cb, 200);   
+
+                
     });
     
     it('should allow for interval to be cancelled', function(done) {
