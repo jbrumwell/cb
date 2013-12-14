@@ -9,7 +9,8 @@
 	},
 	"main": "lib/cb.js",
         "dependencies": {
-            "node-uuid": "1.4.x"            
+            "node-uuid": "1.4.x",
+            "laeh2": "*"
         },
 	"devDependencies": {
 		"mocha": ">=0.3.6"
